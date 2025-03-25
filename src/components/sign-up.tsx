@@ -1,4 +1,6 @@
 "use client";
+import * as Clerk from "@clerk/elements/common";
+
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -12,7 +14,6 @@ import { Icons } from "@/components/ui/icons";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
-import * as Clerk from "@clerk/elements/common";
 import * as SignUp from "@clerk/elements/sign-up";
 
 export default function SignUpComponent() {
@@ -76,7 +77,7 @@ export default function SignUpComponent() {
                       </Clerk.Connection>
                     </div>
                     <p className="flex items-center gap-x-3 text-sm text-muted-foreground before:h-px before:flex-1 before:bg-border after:h-px after:flex-1 after:bg-border">
-                      or
+                      ou
                     </p>
                     <Clerk.Field name="emailAddress" className="space-y-2">
                       <Clerk.Label asChild>

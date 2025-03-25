@@ -24,9 +24,9 @@ export default function SignInComponent() {
               <SignIn.Step name="start">
                 <Card className="w-full sm:w-96">
                   <CardHeader>
-                    <CardTitle>Sign in to Acme Co</CardTitle>
+                    <CardTitle>SaaS Análise de Dados</CardTitle>
                     <CardDescription>
-                      Bem-vindo de Volta! Faça seu login para continuar
+                      Bem-vindo de Volta! Faça seu login para continuar.
                     </CardDescription>
                   </CardHeader>
                   <CardContent className="grid gap-y-4">
@@ -75,7 +75,7 @@ export default function SignInComponent() {
                       </Clerk.Connection>
                     </div>
                     <p className="flex items-center gap-x-3 text-sm text-muted-foreground before:h-px before:flex-1 before:bg-border after:h-px after:flex-1 after:bg-border">
-                      or
+                      ou
                     </p>
                     <Clerk.Field name="identifier" className="space-y-2">
                       <Clerk.Label asChild>
