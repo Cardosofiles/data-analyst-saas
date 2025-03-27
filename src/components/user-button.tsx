@@ -1,12 +1,12 @@
 "use client";
 
 import { UserProfile, useUser } from "@clerk/nextjs";
+import { Loader2 } from "lucide-react";
 import { useState } from "react";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
-import { Loader2 } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
